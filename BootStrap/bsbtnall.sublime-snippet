@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<div class="row mb-5 d-flex justify-content-around">
+  <button class="btn btn-primary">Primary</button>
+  <button class="btn btn-secondary">Secondary</button>
+  <button class="btn btn-danger">Danger</button>
+  <button class="btn btn-dark">Dark</button>
+  <button class="btn btn-warning">Warning</button>
+  <button class="btn btn-success">Success</button>
+  <button class="btn btn-info">Info</button>
+  <button class="btn btn-light">Light</button>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bsbtnall</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

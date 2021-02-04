@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<svg width="${1:}" height="${2:}">
+<polygon 
+points="100 100, 200 200, 250 250, 300 300, 300 0" 
+style="fill:green; stroke:black;"/>
+</svg>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>svgpolygon</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

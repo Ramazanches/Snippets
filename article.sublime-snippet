@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<article>
+  <h2>Роль цитокинов при дорсалгии</h2>
+  <p>Автор: Гордон Фримен, канд. физ.-мат. наук</p>
+  <p>Содержание статьи</p>
+  <address>Почта: freemen@blackmesa.com</address>
+  <p>Опубликовано: <time datetime="2018-11-27">27 ноября 2018</time></p>
+</article>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>article</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

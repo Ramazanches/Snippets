@@ -1,0 +1,35 @@
+<snippet>
+	<content><![CDATA[
+<form action="" enctype="text/plain" method="post">
+
+  <fieldset class="account-info">
+
+    <label>
+      Имя пользователя
+      <input type="text" name="username" required>
+    </label>
+
+    <label>
+      Пароль
+      <input type="password" name="password" required>
+    </label>
+
+  </fieldset>
+
+  <fieldset class="account-action">
+
+    <input class="btn" type="submit" name="submit" value="Войти">
+
+    <label>
+      <input type="checkbox" name="remember"> Запомнить
+    </label>
+
+  </fieldset>
+
+</form>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>formfieldsetsignin</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

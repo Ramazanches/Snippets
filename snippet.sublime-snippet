@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+C:\Users\RamaZan\AppData\Roaming\Sublime Text 3\Packages\User
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>snippet</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+ ${1:}Этот текст появился здесь, потому что Рамазану было очень лень писать длинные тексты и поэтому он решил сгенерировать вот такой вот простой текст. И неважно какой смысл будеть у данного текста. Главное чтобы он заполнил собой пустое место и представлял собой какой-либо контент.${2:}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>Рамазан</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<div class="alert alert-warning">
+  <h3 class="alert-heading">Добрый Вечер!</h3>
+  Пожалуйста перейдите по следующей ссылке <a href="index.html" class="alert-link">Главная</a>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bsalert</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

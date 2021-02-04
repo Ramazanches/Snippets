@@ -1,0 +1,147 @@
+<snippet>
+	<content><![CDATA[
+<div class="card-vertical">
+<div class="card-container">
+  <h3>Заголовок</h3>
+  <img src="../My_Template/img/images/4.jpg" alt="" data="">
+  <p>Текст фотокарточки - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quas placeat dolore in, vero sit eveniet soluta aut. Tenetur, error?</p>
+</div>
+<div class="card-container">
+  <h3>Заголовок</h3>
+  <img src="../My_Template/img/images/4.jpg" alt="" data="">
+  <p>Текст фотокарточки - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quas placeat dolore in, vero sit eveniet soluta aut. Tenetur, error?</p>
+</div>
+<div class="card-container">
+  <h3>Заголовок</h3>
+  <img src="../My_Template/img/images/4.jpg" alt="" data="">
+  <p>Текст фотокарточки - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quas placeat dolore in, vero sit eveniet soluta aut. Tenetur, error?</p>
+</div>
+</div>
+
+
+<style>
+    .card-wrap{
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      justify-content: flex-end;
+      -ms-align-items: center;
+      align-items: center;
+    }
+  .card-horizontal{
+    width: 93%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .card-container{
+    margin-left: 2vw;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -ms-align-items: center;
+    align-items: center;
+  }
+  .card-container img{
+    width: 100%;
+    min-height: 130px;
+    border-radius: 4px;
+  }
+  .card-container h3{
+    margin: 3vh 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+      text-transform: uppercase;
+      line-height: 1.2;
+  }
+    @media screen and (max-width: 992px){.card-container h3{font-size: 16px;}}
+    @media screen and (max-width: 925px){.card-container h3{font-size: 15px;}}
+    @media screen and (max-width: 858px){.card-container h3{font-size: 15.5px;}}
+    @media screen and (max-width: 791px){.card-container h3{font-size: 14px;}}
+    @media screen and (max-width: 724px){.card-container h3{font-size: 13.5px;}}
+    @media screen and (max-width: 657px){.card-container h3{font-size: 13px;}}
+
+  .card-container p{
+    width: 100%;
+    height: 30%;
+    margin: 2vh 0;
+    line-height: 1.4;
+    font-size: 1.5vw;
+  }
+    @media screen and (min-width: 992px){.card-container p{font-size: 16px;}}
+    @media screen and (max-width: 768px){.card-container p{font-size: 13px;}}
+
+   
+    .card-vertical{
+      width: 20vw;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;   
+  }
+  .card-vertical{
+      width: 20vw;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;   
+  }
+    
+    .card-vertical .card-container{
+      margin-top: 4vh;
+    margin-left: 2vw;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -ms-align-items: center;
+    align-items: center;
+  }
+
+</style>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cardphotovertical</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

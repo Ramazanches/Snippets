@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<button class="btn btn-secondary px-3 m-3 col-xs-5 col-sm-4 col-md-3"  
+data-toggle="popover" 
+data-placement="top" 
+title="Wow" 
+data-content="Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Quidem ipsam accusamus, amet quas eligendi quaerat eveniet officiis accusantium vel, suscipit impedit minus, dolor, ex commodi aliquam. Praesentium nostrum optio cum?">Click</button>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bspopovertop</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<div class="row d-flex flex-row flex-wrap">
+  <img src="../My_Template/img/images/2.jpg" alt="" class="rounded float-right col-sm-3 ml-2 mt-2">
+  <img src="../My_Template/img/images/3.jpg" alt="" class="rounded float-right col-sm-3 ml-2 mt-2">
+  <img src="../My_Template/img/images/4.jpg" alt="" class="rounded float-right col-sm-3 ml-2 mt-2">
+  <img src="../My_Template/img/images/5.jpg" alt="" class="rounded float-right col-sm-3 ml-2 mt-2">
+  <img src="../My_Template/img/images/4.jpg" alt="" class="rounded float-right col-sm-3 ml-2 mt-2">
+  <img src="../My_Template/img/images/2.jpg" alt="" class="rounded float-right col-sm-3 ml-2 mt-2">
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bsgallery</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

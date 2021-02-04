@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+<table class="table table-bordered mt-4 col-4" data-toggle="tooltip" title="table-bordered">
+  <thead>
+    <tr>
+      <th>sdcs</th>
+      <th>ecaec</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>scasd</td>
+      <td>scsdsdc</td>
+    </tr>
+  </tbody>
+</table>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bstable2</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

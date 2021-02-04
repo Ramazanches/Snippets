@@ -1,0 +1,87 @@
+<snippet>
+	<content><![CDATA[
+<nav class="vertical">
+  <ul class="v-navmenu">
+    <li class="navitem"><a href="" class="navlink">menulink1</a></li>
+    <li class="navitem"><a href="" class="navlink">menulink2</a></li>
+    <li class="navitem"><a href="" class="navlink">menulink3</a></li>
+    <li class="navitem"><a href="" class="navlink">menulink4</a></li>
+  </ul>
+</nav>
+
+<style>
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+nav.vertical{
+  width: 20vw;
+  background-color: #303030FF;
+  min-width: 150px;
+
+}
+nav.vertical ul.v-navmenu{
+  padding: 4vh 0;
+  width: 100%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  justify-content: space-around;
+  -ms-align-items: center;
+  align-items: center;
+}
+nav.vertical li.navitem{
+  margin: 0;
+  margin-top: 8%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+@media screen and (max-width: 768px){
+  nav.vertical{
+  width: 35vw;
+  }
+nav.vertical li.navitem{
+  font-size: 15px;
+  }
+}
+@media screen and (max-width: 526px){
+nav.vertical li.navitem{
+  font-size: 14px;
+  }
+}
+nav.vertical a.navlink{
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: #fff;
+  border-bottom: 2px solid transparent;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  }
+nav.vertical a.navlink:hover{
+  border-bottom: 2px solid #fff;
+}
+</style>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>navdarkvertical</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

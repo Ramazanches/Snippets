@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+ <p>My band is called <span itemprop="band">Four Parts Water</span>.</p>
+ <p>I am <span itemprop="nationality">British</span>.</p>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pspan_item</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

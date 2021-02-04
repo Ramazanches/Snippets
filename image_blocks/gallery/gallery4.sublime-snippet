@@ -1,0 +1,160 @@
+<snippet>
+	<content><![CDATA[
+<div class="gallery-wrap-back">
+  <div class="gallery-container">
+
+    <div class="gallery-block slide-bt">
+      <h3>Заголовок</h3>
+      <p>Описание</p>
+    </div>
+
+    <div class="gallery-block slide-bt">
+      <h3>Заголовок</h3>
+      <p>Описание</p>
+    </div>
+
+    <div class="gallery-block slide-bt">
+      <h3>Заголовок</h3>
+      <p>Описание</p>
+    </div>
+
+    <div class="gallery-block slide-bt">
+      <h3>Заголовок</h3>
+      <p>Описание</p>
+    </div>
+
+    <div class="gallery-block slide-bt">
+      <h3>Заголовок</h3>
+      <p>Описание</p>
+    </div>
+
+    <div class="gallery-block slide-bt">
+      <h3>Заголовок</h3>
+      <p>Описание</p>
+    </div>
+  </div>
+</div>
+<style>
+  .gallery-wrap-back{
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      justify-content: flex-end;
+      -ms-align-items: center;
+      align-items: center;
+    }
+  .gallery-container{
+    width: 93%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .gallery-block{
+    margin-bottom: 4vh;
+    width: 17vw;
+    height: 17vw;
+    min-width: 150px;
+    min-height: 150px;
+    margin-left: 2vw;
+    cursor: pointer;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+  }
+  .gallery-block:nth-child(1){background-image: url("../My_Template/img/images/1.jpg");}
+  .gallery-block:nth-child(2){background-image: url("../My_Template/img/images/2.jpg");}
+  .gallery-block:nth-child(3){background-image: url("../My_Template/img/images/3.jpg");}
+  .gallery-block:nth-child(4){background-image: url("../My_Template/img/images/4.jpg");}
+  .gallery-block:nth-child(5){background-image: url("../My_Template/img/images/5.jpg");}
+  .gallery-block:nth-child(6){background-image: url("../My_Template/img/images/2.jpg");}
+    
+    .gallery-container div p, .gallery-container div h3{
+      position: relative;
+      width: 90%;
+      color: #fff;
+      background-color: rgba(35, 35, 35, 0.9);
+      text-align: center;
+      margin: 0.5vh 0;
+      padding: 1vw 0;
+      border-radius: 4px;
+      opacity: 0;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
+   .gallery-container div h3{
+        top: 50%;
+    }
+    .gallery-container div p{
+        bottom: 50%;
+    }
+ 
+    
+  @media screen and (min-width: 992px){
+    .gallery-container div p, 
+    .gallery-container div h3{
+      font-size: 14px;
+    }
+    }
+    @media screen and (max-width: 768px){
+      .gallery-container div p, 
+      .gallery-container div h3{
+        font-size: 13px;
+      }
+      }
+</style>
+<script>
+  //Slide
+  var block = document.getElementsByClassName("slide-bt");
+  for(var i=0; i<block.length; i++){
+  block[i].onmouseover = function(event){
+    this.firstElementChild.style.opacity = "1";
+    this.firstElementChild.style.top = "0";
+    this.lastElementChild.style.opacity = "1";
+    this.lastElementChild.style.bottom = "0";
+  }
+  block[i].onmouseout = function(event){
+    this.firstElementChild.style.opacity = "0";
+    this.firstElementChild.style.top = "50%";
+    this.lastElementChild.style.opacity = "0";
+    this.lastElementChild.style.bottom = "50%";
+  }
+  }
+</script>
+
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gallery4</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

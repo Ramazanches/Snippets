@@ -1,0 +1,95 @@
+<snippet>
+	<content><![CDATA[
+<div class="gallery-wrap">
+<div class="gallery-section">
+  <div class="gallery-container">
+    <a href=""><img src="../My_Template/img/images/1.jpg" alt="" class="gallery-image" data=""></a>
+    <p class="gallery-text">Lorem ipsum dolor</p>
+  </div>
+  <div class="gallery-container">
+    <a href=""><img src="../My_Template/img/images/2.jpg" alt="" class="gallery-image" data=""></a>
+    <p class="gallery-text">Lorem ipsum dolor</p>
+  </div>
+  <div class="gallery-container">
+    <a href=""><img src="../My_Template/img/images/3.jpg" alt="" class="gallery-image" data=""></a>
+    <p class="gallery-text">Lorem ipsum dolor</p>
+  </div>
+  <div class="gallery-container">
+    <a href=""><img src="../My_Template/img/images/4.jpg" alt="" class="gallery-image" data=""></a>
+    <p class="gallery-text">Lorem ipsum dolor</p>
+  </div>
+  <div class="gallery-container">
+    <a href=""><img src="../My_Template/img/images/5.jpg" alt="" class="gallery-image" data=""></a>
+    <p class="gallery-text">Lorem ipsum dolor</p>
+  </div>
+</div>
+</div>
+<style>
+.gallery-wrap{
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      justify-content: flex-end;
+      -ms-align-items: center;
+      align-items: center;
+    }
+  .gallery-section{
+    width: 93%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .gallery-container{
+    width: 15vw;
+    min-width: 150px;
+    min-height: 150px;
+    margin-left: 2vw;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -ms-align-items: center;
+    align-items: center;
+  }
+  .gallery-container img{
+    width: 100%;
+    min-height: 130px;
+    border-radius: 4px;
+  }
+  .gallery-container p{
+    width: 100%;
+    height: 30%;
+    margin: 2vh 0;
+    line-height: 1.4;
+    font-size: 1.5vw;
+  }
+    @media screen and (min-width: 992px){.gallery-container p{font-size: 14px;}}
+    @media screen and (max-width: 768px){.gallery-container p{font-size: 13px;}}
+</style>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gallery2</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

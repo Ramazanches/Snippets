@@ -1,0 +1,64 @@
+<snippet>
+	<content><![CDATA[
+<input type="text" name="username" placeholder="Имя пользователя"/>
+
+<input type="text" name="firstname" placeholder="Имя"/>
+
+<input type="text" name="lastname" placeholder="Фамилия"/>
+
+<input type="text" maxlength="20" size="45" pattern="pattern" name=""/>
+
+<input type="text" disabled name="" placeholder="disabled"/>
+
+<input type="text" readonly name="" placeholder="readonly"/>
+
+
+<input type="email" name="email" placeholder="Электронная почта"/>
+
+<input type="url" name="" placeholder="url"/>
+
+
+<input type="password" name="password" placeholder="Пароль"/>
+
+<input type="password" name="password_confirm" placeholder="Повторите пароль"/>
+
+
+<input type="tel" name="" placeholder="Телефон"/> 
+
+<input type="number" min="" max="" step="" value="" name="" placeholder="Возраст"/>
+
+<input type="submit" name="" value="Отправить"/>
+
+
+
+<input type="file" name="" multiple accept="image/*" alt=""/>
+
+<input type="file" name="" multiple accept="audio/*" alt=""/>
+
+<input type="file" name="" multiple accept="video/*" alt=""/>
+
+
+<input type="file" name="" multiple accept="image/*,image/jpeg" alt=""/>
+
+<input type="file" name="" multiple accept="image/*,image/png" alt=""/>
+
+<input type="file" name="" multiple accept="image/*,image/jpeg,image/png" alt=""/>
+
+
+<input type="search" name=""/>
+
+<input type="checkbox" name=""/>
+
+<input type="radio" name=""/>
+
+<input type="range" min="" max="" step="" value="" name=""/>
+
+<input class="reset" type="reset" placeholder="Сбросить"/>
+
+<input type="color" title="Выберите цвет"/>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>inputall</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+    crossorigin="anonymous"></script>
+<script src="css/main.min.js"></script>
+<!-- <script src="https://api-maps.yandex.ru/2.1/?apikey=42aebe8a-ecd1-4d10-ba19-085905b54731&lang=ru_RU"></script>	 -->
+
+</body>
+</html>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>footersnippet</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

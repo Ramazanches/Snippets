@@ -1,0 +1,67 @@
+<snippet>
+	<content><![CDATA[
+<form action="signin.php" method="post" enctype="text/plain">
+    <ul class="wrapper">
+  
+      <li class="form-row">
+        <label for="name">Имя</label>
+        <input type="text" name="firstname" required>
+      </li>
+      <li class="form-row">
+        <label for="townborn">Пароль</label>
+        <input type="password" name="password">
+      </li>
+      <li class="form-row">
+        <button type="submit">Отправить</button>
+      </li>
+  
+    </ul>
+  </form>
+  
+  
+  <style>
+  .wrapper {
+    margin-top: 20px;
+    background-color: whitesmoke;
+    list-style-type: none;
+    padding: 0;
+    border-radius: 3px;
+  }
+  .form-row {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .form-row > label {
+    width: auto;
+    margin: 0;
+    padding: .5em 1em .5em 0;
+    text-align: left;
+    
+  }
+  .form-row > input {
+    margin-top: 0;
+    flex: 1;
+  }
+  .form-row > input:focus{
+    border: 1px solid #AAA;
+  }
+  .form-row > input,
+  .form-row > button {
+    padding: 10px;
+    min-width: 250px;
+    border: 1px solid #CCC;  
+  }
+  .form-row > button {
+    margin-top: 20px;
+    background: gray;
+    color: white;
+    border: 0;
+  }
+  </style>  
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>formsignin2</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

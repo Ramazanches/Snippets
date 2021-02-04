@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<select class="custom-select">
+  <option selected>Выберите</option>
+  <option value="1">Ботинки</option>
+  <option value="2">Туфли</option>
+  <option value="3">Ноги</option>
+</select>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bsselect</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

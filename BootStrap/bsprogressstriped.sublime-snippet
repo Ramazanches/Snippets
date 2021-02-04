@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<div class="progress col-5 d-flex align-self-center">
+  <div class="progress-bar progress-bar-striped bg-danger" aria-valuemin="0"  aria-valuenow="50"  aria-valuemax="100" style="width: 100%">50%</div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bsprogressstriped</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

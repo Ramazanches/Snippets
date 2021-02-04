@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+@media screen and (max-width: 320px) and (orientation:landscape){
+    ${1:}
+}
+@media screen and (max-width: 576px) and (orientation:landscape){
+    ${2:}
+}
+@media screen and (max-width: 768px) and (orientation:landscape){
+    ${3:}
+}
+@media screen and (max-width: 992px) and (orientation:landscape){
+    ${4:}
+}
+@media screen and (max-width: 1200px) and (orientation:landscape){
+    ${5:}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>maxalllandscape</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>
+
+

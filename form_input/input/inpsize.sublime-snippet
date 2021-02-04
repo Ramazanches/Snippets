@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<input type="text" maxlength="20" size="45" pattern="pattern"/>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>inpsize</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

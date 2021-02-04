@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<figure>
+<figcaption align="center">
+<img src="${1:}" alt=""/>
+</figcaption>
+</figure>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>figuresnippet</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

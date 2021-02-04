@@ -1,0 +1,38 @@
+<snippet>
+	<content><![CDATA[
+<div id="carouselId" class="carousel slide carousel-fade w-50" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselId" data-slide-to="0" class=" active"></li>
+    <li data-target="#carouselId" data-slide-to="1"></li>
+    <li data-target="#carouselId" data-slide-to="2"></li>
+    <li data-target="#carouselId" data-slide-to="3"></li>
+  </ol>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-interval="5000"><img src="../My_Template/img/images/5.jpg" class="w-100" alt="">
+      <div class="carousel-caption p-1" style="background: rgba(0, 0, 0, 0.5); border-radius: 10px">
+            <h5>Title</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  </p>
+          </div>
+
+    </div>
+    <div class="carousel-item" data-interval="3000"><img src="../My_Template/img/images/2.jpg" class="w-100" alt=""></div>
+    <div class="carousel-item" data-interval="3000"><img src="../My_Template/img/images/3.jpg" class="w-100" alt=""></div>
+    <div class="carousel-item" data-interval="3000"><img src="../My_Template/img/images/4.jpg" class="w-100" alt=""></div>
+  </div>
+
+  <a href="#carouselId" class="carousel-control-prev" data-slide="prev" aria-hidden="true">
+    <span class="carousel-control-prev-icon"></span>
+    <span class="sr-only"></span>
+  </a>
+  <a href="#carouselId" class="carousel-control-next" data-slide="next" aria-hidden="true">
+    <span class="carousel-control-next-icon"></span>
+    <span class="sr-only"></span>
+  </a>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bsslider</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

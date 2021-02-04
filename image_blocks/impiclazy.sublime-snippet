@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<picture>
+	<source srcset="../images/dest/thumb/dummy-image-1x1.gif${1:}" data="../images/dest/webp/${2:}"  type="image/webp">
+	<img src="../images/dest/thumb/dummy-image-1x1.gif${3:}" data="../images/dest/${4:}"  alt="Loading image">
+</picture>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>impiclazy</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

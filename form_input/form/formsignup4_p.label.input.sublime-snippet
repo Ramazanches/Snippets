@@ -1,0 +1,112 @@
+<snippet>
+	<content><![CDATA[
+<form action="signup.php" method="POST" enctype="text/plain">
+
+  <p class="form-row">
+    <label>Зарегистрируйтесь</label>
+    <label>
+      <input type="radio" name="title" value="mr">
+      Господин
+    </label>
+    <label>
+      <input type="radio" name="title" value="mrs">
+      Госпожа
+    </label>
+  </p>
+
+  <p class="form-row">
+    <label>Имя</label>
+    <input type="text" name="first_name" required/>
+  </p>
+  <p class="form-row">
+    <label>Фамилия</label>
+    <input type="text" name="last_name" required/>
+  </p>
+  <p class="form-row">
+    <label>Email</label>
+    <input type="email" name="email" required/>
+  </p>
+  <p class="form-row">
+    <label>Телефон</label>
+    <input type="tel" name="phone" required/>
+  </p>
+  <p class="form-row">
+    <label>Пароль</label>
+    <input type="password" name="password" required/>
+  </p>
+  <p class="form-row">
+    <label>Подтвердите пароль</label>
+    <input type="password" name="password_confirm" required/>
+  </p>
+
+  <p class="form-row">
+    <label>Страна</label>
+    <select name="country">
+      <option>Канада</option>
+      <option>Франция</option>
+      <option>Германия</option>
+      <option>Италия</option>
+      <option>Япония</option>
+      <option>Россия</option>
+      <option>Великобритания</option>
+      <option>США</option>
+    </select>
+  </p>
+  <p class="form-row">
+    <label>
+      <input type="checkbox" name="terms" required>
+      Я согласен с <a href="terms.php">условиями использования</a>
+    </label>
+  </p>
+
+  <p class="form-row"><button type="submit">Зарегистрироваться</button></p>
+  
+</form>
+
+
+  <style>
+  .wrapper {
+    margin-top: 20px;
+    background-color: whitesmoke;
+    list-style-type: none;
+    padding: 0;
+    border-radius: 3px;
+  }
+  .form-row {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .form-row > label {
+    width: auto;
+    margin: 0;
+    padding: .5em 1em .5em 0;
+    text-align: left;
+    
+  }
+  .form-row > input {
+    margin-top: 0;
+    flex: 1;
+  }
+  .form-row > input:focus{
+    border: 1px solid #AAA;
+  }
+  .form-row > input,
+  .form-row > button {
+    padding: 10px;
+    min-width: 250px;
+    border: 1px solid #CCC;  
+  }
+  .form-row > button {
+    margin-top: 20px;
+    background: gray;
+    color: white;
+    border: 0;
+  }
+  </style>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>formsignup4</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

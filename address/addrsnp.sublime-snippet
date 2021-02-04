@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<address>
+  <strong>Шэй Хоу</strong><br>
+  <a href="http://learn.shayhowe.com">http://learn.shayhowe.com</a><br>
+  <a href="mailto:hello@awesome.com">hello@awesome.com</a><br>
+  600 W. Chicago Ave.<br>
+  Suite 620<br>
+  Chicago, IL 60654<br>
+  USA 
+</address>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>addrsnp</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

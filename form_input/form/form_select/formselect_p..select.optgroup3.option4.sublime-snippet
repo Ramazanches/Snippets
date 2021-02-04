@@ -1,0 +1,36 @@
+<snippet>
+	<content><![CDATA[
+<form>
+<p>Выберите кухню</p>
+<select name="food">
+
+<optgroup label="Русская кухня">
+<option value=""></option>
+<option value=""></option>
+<option value=""></option>
+<option value=""></option>
+</optgroup>
+
+<optgroup label="Украинская кухня">
+<option value=""></option>
+<option value=""></option>
+<option value=""></option>
+<option value=""></option>
+</optgroup>
+
+<optgroup label="Грузинская кухня">
+<option value=""></option>
+<option value=""></option>
+<option value=""></option>
+<option value=""></option>
+</optgroup>
+
+</select>
+
+</form>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>formselect</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

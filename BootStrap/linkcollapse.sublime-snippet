@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<a href="#collapse" class="btn btn-primary" data-toggle="collapse">Open Link</a>
+<div id="collapse" class="collapse">
+  <div class="card">
+    <div class="card-body">
+      <div class="card-text bg-dark">Lorem ipsum dolor sit amet</div>
+    </div>
+  </div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>linkcollapse</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

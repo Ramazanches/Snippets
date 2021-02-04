@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<li class="form-row">
+  <label for="townborn"><i>@</i></label>
+  <input type="text" name="${1:}" id="${2:}" placeholder="${3:}">
+</li>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>inprow</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

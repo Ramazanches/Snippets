@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<button 
+data-toggle="popover"
+data-placement="left"
+title="Здесь есть подсказка"
+data-content="По кайней мере здесь должна была быть подсказка, и даже возможно она здесь есть"
+class="btn btn-info m-3 col-xs-5 col-sm-4 col-md-3">Подсказка</button>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bspopoverleft</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

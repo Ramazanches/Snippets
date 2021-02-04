@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+<div class="spoiler">
+  <input type="checkbox" id="spoiler1">
+  <label for="spoiler1">Внимание, спойлер!</label>
+  <div>Убийца — дворецкий!</div>
+</div>
+<style>
+.spoiler input, .spoiler div  { 
+  display: none;
+}
+
+.spoiler :checked ~ div {
+  display: block;
+}
+
+/* Закрытый спойлер */
+.spoiler label::before {
+  content: '►'; 
+  margin-right: 5px;
+}
+/* Открытый спойлер */
+.spoiler :checked + label::before {
+  content: '▼';
+}
+</style>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>inpspoiler</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+<div class="btn-group">
+
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+    Right-aligned but left aligned when large screen
+  </button>
+
+<div class="dropdown-menu">
+  <li>Link1</li>
+  <li>Link2</li>
+  <li>Link3</li>
+  <li>Link4</li>
+</div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>dropdownmenu</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

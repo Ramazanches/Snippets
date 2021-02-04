@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<div class="btn-group">
+  <button class="btn btn-info dropdown-toggle" data-toggle="dropdown">Item text</button>
+  <div class="dropdown-menu">
+    <div class="dropdown-item-text">Item-text</div>
+    <a href="" class="dropdown-item">Dropdown-item</a>
+    <a href="" class="dropdown-item">Dropdown-item</a>
+    <a href="" class="dropdown-item">Dropdown-item</a>
+  </div>
+
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>btndropdown</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<ul id="tab" class="nav nav-tabs">
+  <li class="nav-item"><a href="#one"  class="nav-link" data-toggle="tab">One</a></li>
+  <li class="nav-item"><a href="#two"  class="nav-link" data-toggle="tab">Two</a></li>
+  <li class="nav-item"><a href="#three"  class="nav-link" data-toggle="tab">Three</a></li>
+</ul>
+<div id="tabContent" class="tab-content">
+    <div class="tab-pane show active" id="one">Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Vero dolorum ipsum eos possimus autem sequi voluptatem quae consequatur nesciunt beatae, quisquam laborum similique praesentium repellendus iusto dignissimos aspernatur sit laboriosam labore tenetur quod repudiandae.</div>
+    <div class="tab-pane fade" id="two"> Quibusdam placeat minus officiis? Ratione, optio dignissimos ducimus similique impedit maxime perspiciatis, nostrum architecto esse voluptas est ut quos ad reiciendis modi placeat beatae, ipsa culpa dolorem aliquid nobis incidunt quia laboriosam!</div>
+    <div class="tab-pane fade" id="three">Possimus tenetur placeat soluta consequuntur, ducimus rerum omnis nemo voluptatem magnam dolorem? Rerum atque enim similique vel asperiores repudiandae, doloremque dolor non ducimus dolores sit minus in tempore minima? Ipsa repellat eaque hic officia, molestias temporibus vel ratione, voluptate?</div>
+  </div> 
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bstabs</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

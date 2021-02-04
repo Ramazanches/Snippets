@@ -1,0 +1,79 @@
+<snippet>
+	<content><![CDATA[
+<div class="card-wrap-grid">
+ <div class="card-horizontal-grid ml2">
+  <div class="card-container-grid">
+    <h3>Заголовок фотокарточки</h3>
+    <img src="../My_Template/img/images/4.jpg" alt="../My_Template/img/images/4.jpg" data="">
+    <p>Параграф с текстом фотокарточки - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, ullam.</p>
+  </div>
+  <div class="card-container-grid">
+    <h3>Заголовок фотокарточки</h3>
+    <img src="../My_Template/img/images/4.jpg" alt="../My_Template/img/images/4.jpg" data="">
+    <p>Параграф с текстом фотокарточки - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, unde.</p>
+  </div>
+  <div class="card-container-grid">
+    <h3>Заголовок фотокарточки</h3>
+    <img src="../My_Template/img/images/4.jpg" alt="../My_Template/img/images/4.jpg" data="">
+    <p>Параграф с текстом фотокарточки - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, doloremque.</p>
+  </div>
+  <div class="card-container-grid">
+    <h3>Заголовок фотокарточки</h3>
+    <img src="../My_Template/img/images/4.jpg" alt="../My_Template/img/images/4.jpg" data="">
+    <p>Параграф с текстом фотокарточки - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, doloremque.</p>
+  </div>
+  <div class="card-container-grid">
+    <h3>Заголовок фотокарточки</h3>
+    <img src="../My_Template/img/images/4.jpg" alt="../My_Template/img/images/4.jpg" data="">
+    <p>Параграф с текстом фотокарточки - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, doloremque.</p>
+  </div>
+ </div>
+</div>
+<style>
+  .card-horizontal-grid{
+    padding: 5vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 170px);
+    grid-template-rows: repeat(auto-fill, 220px);
+    grid-column-gap: 10px;
+    grid-row-gap: 150px;
+  }
+  .card-container-grid{
+    border: 1px solid #000;
+  }
+  .card-container-grid img{
+    width: 100%;
+    min-height: 130px;
+    border-radius: 4px;
+  }
+  .card-container-grid h3{
+    margin: 3vh 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+      text-transform: uppercase;
+      line-height: 1.2;
+  }
+  @media screen and (max-width: 992px){.card-container-grid h3{font-size: 16px;}}
+    @media screen and (max-width: 925px){.card-container-grid h3{font-size: 15px;}}
+    @media screen and (max-width: 858px){.card-container-grid h3{font-size: 15.5px;}}
+    @media screen and (max-width: 791px){.card-container-grid h3{font-size: 14px;}}
+    @media screen and (max-width: 724px){.card-container-grid h3{font-size: 13.5px;}}
+    @media screen and (max-width: 657px){.card-container-grid h3{font-size: 13px;}}
+
+  .card-container-grid p{
+    width: 100%;
+    height: 30%;
+    margin: 2vh 0;
+    line-height: 1.4;
+    font-size: 1.5vw;
+  }
+    @media screen and (min-width: 992px){.card-container-grid p{font-size: 16px;}}
+    @media screen and (max-width: 768px){.card-container-grid p{font-size: 13px;}}
+</style>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cardphotogrid</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

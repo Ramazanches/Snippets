@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<section>
+	<div class="card">
+		<img src="${1:}" alt="" class="card-img">
+		<h2 class="card-title">${2:}</h2>
+		<p class="card-text">${3:}</p>
+	</div>
+</section>		
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sec_card_itt</tabTrigger>
+<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

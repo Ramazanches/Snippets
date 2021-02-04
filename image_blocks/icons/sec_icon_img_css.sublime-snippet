@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+	.icon-container{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.icon-block{
+		margin: 0;
+		padding: 1vw;
+		width: 25%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		border: 1px dotted #000;
+	}
+	.icon-block img{
+		width: 20%;
+	}
+	.icon-block span{
+		padding: 1vw 0;
+	}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sec_icon_img_css</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

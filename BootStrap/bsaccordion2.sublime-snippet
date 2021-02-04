@@ -1,0 +1,50 @@
+<snippet>
+	<content><![CDATA[
+<div class="accordion my-4">
+  <div class="card">
+    <div class="card-header">
+      <button class="btn btn-link" data-toggle="collapse"  data-target="#one">Open</button>
+    </div>
+
+    <div class="collapse" id="one">
+      <div class="card-body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, pariatur repellat? Excepturi voluptatem quaerat autem temporibus, aperiam quis nobis impedit corrupti eveniet eos totam, rem, deleniti et enim dolorum consequatur.
+      </div>
+    </div>
+
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <button 
+      class="btn btn-link collapsed" 
+      data-toggle="collapse" 
+      data-target="#two"
+      >Open</button>
+    </div>
+    <div class="collapse" id="two">
+      <div class="card-body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, pariatur repellat? Excepturi voluptatem quaerat autem temporibus, aperiam quis nobis impedit corrupti eveniet eos totam, rem, deleniti et enim dolorum consequatur.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <button 
+      class="btn btn-link collapsed" 
+      data-toggle="collapse" 
+      data-target="#three"
+      >Open</button>
+    </div>
+    <div class="collapse" id="three">
+      <div class="card-body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, pariatur repellat? Excepturi voluptatem quaerat autem temporibus, aperiam quis nobis impedit corrupti eveniet eos totam, rem, deleniti et enim dolorum consequatur.
+      </div>
+    </div>
+  </div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bsaccordion2</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

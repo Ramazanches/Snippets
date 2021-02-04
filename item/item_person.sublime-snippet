@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+<section itemscope itemtype="http://schema.org/Person">
+  <strong itemprop="name">Шэй Хоу</strong>
+  <img src="shay.jpg" itemprop="image" alt="Шэй Хоу">
+  <div itemprop="jobTitle">Дизайнер и фронтенд-разработчик</div>
+  <a href="http://www.shayhowe.com" itemprop="url">shayhowe.com</a>
+  <div itemprop="telephone">(555) 123-4567</div>
+  <a href="mailto:shay@awesome.com" itemprop="email">shay@awesome.com</a>
+  <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+    <span itemprop="streetAddress">600 W. Chicago Ave.</span>
+    <span itemprop="addressLocality">Chicago</span>,
+    <abbr itemprop="addressRegion" title="Illinois">IL</abbr>
+    <span itemprop="postalCode">60654</span>
+  </address>
+</section>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>item_person</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

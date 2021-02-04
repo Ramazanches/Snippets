@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+<div class="btn-toolbar my-5">
+  <div class="btn-group">
+    <button class="btn btn-dark">Button</button>
+    <button class="btn btn-dark">Button</button>
+    <button class="btn btn-dark">Button</button>
+    <button class="btn btn-dark">Button</button>
+  </div>
+  <div class="input-group">
+    <div class="input-group-prepend ml-5">
+      <div class="input-group-text" id="btnGroupAddon">@</div>
+    </div>
+    <input type="text" class="form-control" aria-labelledby="#btnGroupAddon"/>
+  </div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bsbtntoolbar</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

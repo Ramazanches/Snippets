@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+<table class="table table-responsive-md table-sm">
+  <tr class="table-active" data-toggle="tooltip" title="table-active">
+    <td>sdvcsdvdsvcs</td>
+    <td>sdvcsdvdsvcs</td>
+    <td>sdvcsdvdsvcs</td>
+    <td>sdvcsdvdsvcs</td>
+  </tr> 
+  <tr>
+    <td class="table-danger">sdvcsdvdsvcs</td>
+    <td class="table-warning">sdvcsdvdsvcs</td>
+    <td class="table-secondary">sdvcsdvdsvcs</td>
+    <td class="table-info">sdvcsdvdsvcs</td>
+  </tr> 
+  <tr>
+    <td class="table-success">sdvcsdvdsvcs</td>
+    <td class="table-primary">sdvcsdvdsvcs</td>
+    <td class="table-secondary">sdvcsdvdsvcs</td>
+    <td class="table-light">sdvcsdvdsvcs</td>
+  </tr>
+</table>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bstable5</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

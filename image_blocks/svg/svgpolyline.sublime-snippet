@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<svg width="${1:}" height="${2:}">
+<polyline 
+style="stroke-linejoin:miter; 
+       	stroke:black;
+       	stroke-width:12; 
+	   		fill:none;" 
+points="100 100, 150 150, 200 100"/>
+</svg>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>svgpolyline</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+<div class="d-flex flex-row pt-5">
+<ul id="pills-tab" class="nav nav-pills flex-column border">
+  <li class="nav-item"><a href="#one-pills" data-toggle="pill" id="" class="nav-link">First</a></li>
+  <li class="nav-item"><a href="#two-pills" data-toggle="pill" id="" class="nav-link">Second</a></li>
+  <li class="nav-item"><a href="#three-pills" data-toggle="pill" id="" class="nav-link">Third</a></li>
+</ul>
+<div id="pills-tabContent" class="tab-content py-3  px-2 border border-info">
+  <div id="one-pills" class="tab-pane show active">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis illum voluptate explicabo ad, dolor saepe tempora quos, perspiciatis amet, maiores facere dolore mollitia ut. Reiciendis iure laudantium quo. Veritatis reiciendis nemo provident. Voluptatem dignissimos facilis expedita aliquid voluptate tenetur quidem, nam veritatis provident, voluptatibus beatae quod asperiores mollitia ea, error magni dolores omnis saepe rerum itaque repellendus ab minus temporibus aut, accusamus.  </div>
+  <div id="two-pills" class="tab-pane fade">Aliquam assumenda vero, excepturi facere, recusandae porro totam dolorum doloremque veniam, corporis quo maiores saepe reprehenderit quasi, modi a non quidem! Deserunt enim quae saepe inventore, amet libero earum minus. Tempore ad voluptate ut alias perspiciatis magni excepturi natus debitis vero deserunt laborum, commodi cum ab autem a nesciunt expedita incidunt, id quis accusantium dolore, eligendi!</div>
+  <div id="three-pills" class="tab-pane fade">Modi nemo, esse tempore! In ad alias porro veniam voluptas obcaecati cupiditate quod iste atque. Magnam blanditiis, velit, debitis repellat, consectetur quia suscipit ipsa quo ut, aliquid harum quasi ipsum fugit atque!</div>
+</div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bspillstabs</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,55 @@
+<snippet>
+	<content><![CDATA[
+${1:}<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="ru"> 
+<!--<![endif]-->
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>${1:}</title>
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, target-densitydpi=device-dpi">
+	<meta name="yandex-verification" content="forexample - 500ab2117239e920" />
+
+	<!-- Favicon -->
+
+	<link rel="shortcut icon" href="images/favicon/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="images/favicon/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/favicon/apple-touch-icon-114x114.png">
+
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+	
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+    crossorigin="anonymous"></script>
+<script src="css/main.min.js"></script>
+<script src="https://api-maps.yandex.ru/2.1/?apikey=42aebe8a-ecd1-4d10-ba19-085905b54731&lang=ru_RU"></script>	
+
+</body>
+</html>${2:}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>!doc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>
+
+
+
+
+
+
+
+

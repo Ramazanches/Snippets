@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<picture>
+  <source media="(min-width: 40em)" srcset="big.jpg 1x, big-hd.jpg 2x">
+  <source srcset="small.jpg 1x, small-hd.jpg 2x">
+  <img align="center" src="fallback.jpg" loading="lazy">
+</picture>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>picturesize</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

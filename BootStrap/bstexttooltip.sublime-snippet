@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<p>Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Maiores, unde natus neque minus mollitia eaque eligendi <span data-toggle="tooltip" title=" beatae enim, doloremque" style="text-decoration: underline; cursor: pointer;">delectus</span> iusto esse et ipsa dolorem, autem cum incidunt odio deleniti!</p>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bstexttooltip</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<div class="jumbotron">
+  
+<h1 class="display-4">With Jumbotron</h1>
+<p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Sequi, fugiat at facilis fugit aperiam ipsam accusamus exercitationem quos nesciunt, consectetur corrupti non. Ad repudiandae, atque assumenda quia, asperiores recusandae reprehenderit?</p>
+<button class="btn btn-outline-primary">Button</button>
+
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bsjmb</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

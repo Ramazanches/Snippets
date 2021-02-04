@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<img src="../My_Template/img/images/2.jpg" alt="" class="img-fluid m-5" data-toggle="tooltip" title="img-fluid">
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bsimgfluid</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

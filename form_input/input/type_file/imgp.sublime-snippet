@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+		 <picture>
+		 	<source type="images/dest/${1:}.webp" srcset="">
+		 		<img src="images/dest/${2:}.png">
+		 	</picture>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>imgp</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

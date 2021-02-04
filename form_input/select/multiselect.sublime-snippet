@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<label>Выберите несколько вариантов зажав Ctrl</label>
+<select name="" id="" multiple>
+	<option value="">1</option>
+	<option value="">2</option>
+	<option value="">3</option>
+	<option value="">4</option>
+</select>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>multiselect</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

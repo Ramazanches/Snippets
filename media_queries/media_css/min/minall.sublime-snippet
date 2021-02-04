@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+@media screen and (min-width: 320px){
+    ${1:}
+}
+@media screen and (min-width: 576px){
+    ${2:}
+}
+@media screen and (min-width: 768px){
+    ${3:}
+}
+@media screen and (min-width: 992px){
+    ${4:}
+}
+@media screen and (min-width: 1200px){
+    ${5:}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>minall</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>
+
+

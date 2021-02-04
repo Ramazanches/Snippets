@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+<section itemscope itemtype="http://schema.org/Event">
+  <a itemprop="url" href="#">
+    <span itemprop="name">Styles Conference</span>
+  </a>
+  <time itemprop="startDate" datetime="2014-08-24T09:00">Воскресенье, 24 августа 2014 в 9:00</time>
+  <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+    <a itemprop="url" href="http://www.thechicagotheatre.com/">Chicago Theatre</a>
+    <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+      <div itemprop="streetAddress">175 N. State St.</div>
+      <span itemprop="addressLocality">Chicago</span>,
+      <abbr itemprop="addressRegion" title="Illinois">IL</abbr>
+      <span itemprop="postalCode">60601</span>
+    </address>
+  </div>
+</section>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sec_event</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

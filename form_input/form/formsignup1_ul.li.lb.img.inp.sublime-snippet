@@ -1,0 +1,122 @@
+<snippet>
+	<content><![CDATA[
+<form action="signup.php" method="post" enctype="text/plain">
+  <ul class="wrapper">
+    <li class="form-row">
+      <label><img src="img/images/2.jpg" alt="@"></label>
+      <input type="text" name="firstname" placeholder="Имя" required>
+    </li>
+    <li class="form-row">
+      <label><img src="" alt="@"></label>
+      <input type="text" name="lastname" placeholder="Фамилия" required>
+    </li>
+    <li class="form-row">
+      <label><img src="" alt="@"></label>
+      <input type="text" name="townborn" placeholder="Место рождения" required>
+    </li>
+    <li class="form-row">
+      <label><img src="" alt="@"></label>
+      <input type="email" name="email" placeholder="Электронная почта" required>
+    </li>
+    <li class="form-row">
+      <label><img src="" alt="@"></label>
+      <input type="tel" name="phone" placeholder="Телефон" required>
+    </li>
+    <li class="form-row">
+      <label><img src="" alt="@"></label>
+      <input type="password" name="password" placeholder="Пароль" required>
+    </li>
+    <li class="form-row">
+      <label><img src="" alt="@"></label>
+      <input type="password" name="password_confirm" placeholder="Повторите пароль" required>
+    </li>
+    <li class="form-row">
+      <button type="submit">Отправить</button>
+    </li>
+  </ul>
+</form>
+
+<style>
+.wrapper {
+  min-width: 350px;
+  background-color: whitesmoke;
+  list-style-type: none;
+  margin: 0;
+  padding: 1vw;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+.form-row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: .5em;
+}
+.form-row > label {
+  width: 10%;
+  min-width: 40px;
+  height: 50px;
+  padding: 5px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(204, 204, 204, .5);
+  border-radius: 2px 0 0 2px;
+  background: rgba(136, 136, 136, .3);
+}
+.form-row > label:hover{
+  background: rgba(136, 136, 136, .5);
+} 
+.form-row > label img{
+  width: 50%;
+}
+@media screen and (max-width: 768px){
+  .form-row > label img{
+    width: 70%;
+  }
+}
+@media screen and (max-width: 576px){
+  .form-row > label img{
+    width: 90%;
+  }
+}
+.form-row > input{
+  padding: 5px 15px;
+  width: 90%;
+  flex: 1;
+  margin: 0;
+  border: 1px solid #ccc; /* Параметры рамки */
+  box-shadow: inset 0 1px 5px rgba(0,0,0,0.2); /* Тень внутри */
+}
+.form-row > input:focus{
+  border: 1px solid #BBB; /* Параметры рамки */
+  box-shadow: inset 0 1px 5px rgba(0, 0, 0, .4); /* Тень внутри */
+}
+.form-row > input,
+.form-row > button {
+
+  height: 50px; 
+  min-width: 250px;
+}
+.form-row > button {  
+  padding: 5px;
+  border: 1px solid #ccc; /* Параметры рамки */
+  background: rgba(136, 136, 136, .3);
+  color: rgba(64, 64, 64, 1);
+  border: 1px solid #ccc; /* Параметры рамки */
+  border-radius: 4px;
+}
+.form-row > button:hover{
+  border: 1px solid #BBB; /* Параметры рамки */
+  background: rgba(64, 64, 64, 1);
+  color: white;
+}
+</style>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>formsignup1</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+<div class="card">
+	<img src="${1:}" alt="" class="card-img">
+	<h2 class="card-title">${2:}</h2>
+	<p class="card-text">${3:}</p>
+</div>
+<div class="card">
+	<img src="${4:}" alt="" class="card-img">
+	<h2 class="card-title">${5:}</h2>
+	<p class="card-text">${6:}</p>
+</div>
+<div class="card">
+	<img src="${7:}" alt="" class="card-img">
+	<h2 class="card-title">${8:}</h2>
+	<p class="card-text">${9:}</p>
+</div>
+<div class="card">
+	<img src="${10:}" alt="" class="card-img">
+	<h2 class="card-title">${11:}</h2>
+	<p class="card-text">${12:}</p>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>card_itt_4</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

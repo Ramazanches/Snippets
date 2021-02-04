@@ -1,0 +1,94 @@
+<snippet>
+	<content><![CDATA[
+<div class="card-deck">
+  <div class="card">
+    <img src="../My_Template/img/images/3.jpg" alt="" class="card-img-top">
+    <div class="card-img-overlay">
+      <h2 class="card-title">Image title</h2>
+      <h4 class="card-subtitle">Subtitle image</h4>
+    </div>
+    <div class="card-header">
+      <h2 class="card-title">Header-title</h2>
+      <h4 class="card-subtitle">Subttle header</h4>
+      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur magnam modi repellendus fugiat cupiditate voluptate esse mollitia dolor beatae eligendi officia deleniti id, aperiam dolore! Quibusdam impedit doloribus, dolorum hic!</p>
+    </div>
+    <div class="card-body">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">List</li>
+        <li class="list-group-item">List</li>
+        <li class="list-group-item">List</li>
+        <li class="list-group-item">List</li>
+      </ul>
+    </div>
+    <div class="card-footer">
+      <blockquote class="blockquote">Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Corporis adipisci commodi quidem voluptatum deleniti. Cupiditate nihil fuga sequi, provident exercitationem tenetur quidem eius commodi! Quam animi tempore maxime blanditiis fuga?</blockquote>
+      <blockquote class="blockquote-footer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ipsam sequi nesciunt, expedita dolor mollitia nisi suscipit voluptatibus facilis error hic rem, ducimus tenetur alias aliquid maiores soluta odit nihil?</blockquote>
+      <cite>Lorem cite</cite>
+      <a href="" class="card-link">Link1</a>
+      <a href="" class="card-link">Link2</a>
+      <a href="" class="card-link">Link3</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="../My_Template/img/images/3.jpg" alt="" class="card-img-top">
+    <div class="card-img-overlay">
+            <h2 class="card-title">Image title</h2>
+      <h4 class="card-subtitle">Subtitle image</h4>
+    </div>
+    <div class="card-header">
+      <h2 class="card-title">Header-title</h2>
+      <h4 class="card-subtitle">Subttle header</h4>
+      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur magnam modi repellendus fugiat cupiditate voluptate esse mollitia dolor beatae eligendi officia deleniti id, aperiam dolore! Quibusdam impedit doloribus, dolorum hic!</p>
+    </div>
+    <div class="card-body">
+        <ul class="list-group list-group-flush">
+        <li class="list-group-item">List</li>
+        <li class="list-group-item">List</li>
+        <li class="list-group-item">List</li>
+        <li class="list-group-item">List</li>
+      </ul>
+    </div>
+    <div class="card-footer">
+      <blockquote class="blockquote">Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Corporis adipisci commodi quidem voluptatum deleniti. Cupiditate nihil fuga sequi, provident exercitationem tenetur quidem eius commodi! Quam animi tempore maxime blanditiis fuga?</blockquote>
+      <blockquote class="blockquote-footer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ipsam sequi nesciunt, expedita dolor mollitia nisi suscipit voluptatibus facilis error hic rem, ducimus tenetur alias aliquid maiores soluta odit nihil?</blockquote>
+      <cite>Lorem cite</cite>
+      <a href="" class="card-link">Link1</a>
+      <a href="" class="card-link">Link2</a>
+      <a href="" class="card-link">Link3</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="../My_Template/img/images/3.jpg" alt="" class="card-img-top">
+    <div class="card-img-overlay">
+      <h2 class="card-title">Image title</h2>
+      <h4 class="card-subtitle">Subtitle image</h4>
+    </div>
+    <div class="card-header">
+      <h2 class="card-title">Header-title</h2>
+      <h4 class="card-subtitle">Subttle header</h4>
+      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur magnam modi repellendus fugiat cupiditate voluptate esse mollitia dolor beatae eligendi officia deleniti id, aperiam dolore! Quibusdam impedit doloribus, dolorum hic!</p>
+    </div>
+    <div class="card-body">
+        <ul class="list-group list-group-flush">
+        <li class="list-group-item">List</li>
+        <li class="list-group-item">List</li>
+        <li class="list-group-item">List</li>
+        <li class="list-group-item">List</li>
+      </ul>
+    </div>
+    <div class="card-footer">
+            <blockquote class="blockquote">Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Corporis adipisci commodi quidem voluptatum deleniti. Cupiditate nihil fuga sequi, provident exercitationem tenetur quidem eius commodi! Quam animi tempore maxime blanditiis fuga?</blockquote>
+      <blockquote class="blockquote-footer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ipsam sequi nesciunt, expedita dolor mollitia nisi suscipit voluptatibus facilis error hic rem, ducimus tenetur alias aliquid maiores soluta odit nihil?</blockquote>
+      <cite>Lorem cite</cite>
+      <a href="" class="card-link">Link1</a>
+      <a href="" class="card-link">Link2</a>
+      <a href="" class="card-link">Link3</a>
+    </div>
+  </div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bscarddeck</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+${1:}(document).ready(function(${1:}){
+${1:}('#example1').sliderPro({
+	width: 960,
+	height: 500,
+	arrows: true,
+	buttons: false,
+	waitForLayers: true,
+	thumbnailWidth: 200,
+	thumbnailHeight: 100,
+	thumbnailPointer: true,
+	autoplay: false,
+	autoScaleLayers: false,
+	breakpoints:{
+		500:{
+			thumbnailWidth: 120,
+			thumbnailHeight: 50
+		}
+	}
+});
+	});]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sliderPro_1_js</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

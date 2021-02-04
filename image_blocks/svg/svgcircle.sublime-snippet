@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<svg width="${1:}" height="${2:}">
+<circle 
+cx="100" 
+cy="100" 
+r="50" 
+fill="yellow"/>
+</svg>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>svgcircle</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

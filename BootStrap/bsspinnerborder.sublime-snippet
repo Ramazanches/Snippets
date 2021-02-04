@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+<button class="btn btn-primary"><span class="spinner-border spinner-border-sm"></span>Loading</button>
+<button class="btn btn-secondary"><span class="spinner-border spinner-border-sm"></span>Loading</button>
+<button class="btn btn-danger"><span class="spinner-border spinner-border-sm"></span>Loading</button>
+<button class="btn btn-success"><span class="spinner-border spinner-border-sm"></span>Loading</button>
+<button class="btn btn-info"><span class="spinner-border spinner-border-sm"></span>Loading</button>
+<button class="btn btn-dark"><span class="spinner-border spinner-border-sm"></span>Loading</button>
+<button class="btn btn-light"><span class="spinner-border spinner-border-sm"></span>Loading</button>
+<br><br>
+<button class="btn btn-primary"><span class="spinner-border spinner-border-md"></span>Loading</button>
+<button class="btn btn-secondary"><span class="spinner-border spinner-border-md"></span>Loading</button>
+<button class="btn btn-danger"><span class="spinner-border spinner-border-md"></span>Loading</button>
+<button class="btn btn-success"><span class="spinner-border spinner-border-md"></span>Loading</button>
+<button class="btn btn-info"><span class="spinner-border spinner-border-md"></span>Loading</button>
+<button class="btn btn-dark"><span class="spinner-border spinner-border-md"></span>Loading</button>
+<button class="btn btn-light"><span class="spinner-border spinner-border-md"></span>Loading</button>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bsspinnerborder</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

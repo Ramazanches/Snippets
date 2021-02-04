@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+<button class="btn btn-primary"><span class="spinner-grow spinner-grow-sm"></span>Loading</button>
+<button class="btn btn-secondary"><span class="spinner-grow spinner-grow-sm"></span>Loading</button>
+<button class="btn btn-danger"><span class="spinner-grow spinner-grow-sm"></span>Loading</button>
+<button class="btn btn-success"><span class="spinner-grow spinner-grow-sm"></span>Loading</button>
+<button class="btn btn-info"><span class="spinner-grow spinner-grow-sm"></span>Loading</button>
+<button class="btn btn-dark"><span class="spinner-grow spinner-grow-sm"></span>Loading</button>
+<button class="btn btn-light"><span class="spinner-grow spinner-grow-sm"></span>Loading</button>
+<br><br>
+<button class="btn btn-primary"><span class="spinner-grow spinner-grow-md"></span>Loading</button>
+<button class="btn btn-secondary"><span class="spinner-grow spinner-grow-md"></span>Loading</button>
+<button class="btn btn-danger"><span class="spinner-grow spinner-grow-md"></span>Loading</button>
+<button class="btn btn-success"><span class="spinner-grow spinner-grow-md"></span>Loading</button>
+<button class="btn btn-info"><span class="spinner-grow spinner-grow-md"></span>Loading</button>
+<button class="btn btn-dark"><span class="spinner-grow spinner-grow-md"></span>Loading</button>
+<button class="btn btn-light"><span class="spinner-grow spinner-grow-md"></span>Loading</button>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bsspinnergrow</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

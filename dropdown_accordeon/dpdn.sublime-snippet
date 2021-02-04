@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<div class="dropdown">
+ <input type="checkbox" id="menu">
+ <label for="menu"></label>
+ <ul>
+  <li><a href="#"></a></li>
+  <li><a href="#"></a></li>
+  <li><a href="#"></a></li>
+  <li><a href="#"></a></li>
+ </ul>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>dpdn</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

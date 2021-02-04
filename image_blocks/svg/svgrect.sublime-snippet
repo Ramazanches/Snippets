@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<svg width="${1:}" height="${2:}">
+<rect 
+width="${3:}" 
+height="${4:}" 
+y="20" 
+x="20" 
+feel="green"/>
+</svg>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>svgrect</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

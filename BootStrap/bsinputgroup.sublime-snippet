@@ -1,0 +1,44 @@
+<snippet>
+	<content><![CDATA[
+<div class="input-group">
+  <div class="custom-file">
+    <div class="inp custom-file-input"></div>
+    <label for="" class="custom-file-label"></label>
+    <div class="input-prepend">
+      <div class="input-group-text">Upload</div>
+    </div>
+  </div>
+</div>
+<div class="input-group">
+  <div class="custom-file">
+    <div class="inp custom-file-input"></div>
+    <label for="" class="custom-file-label"></label>
+    <div class="input-prepend">
+      <div class="input-group-text">Upload</div>
+    </div>
+  </div>
+</div>
+<div class="input-group">
+  <div class="custom-file">
+    <div class="inp custom-file-input"></div>
+    <label for="" class="custom-file-label"></label>
+    <div class="input-prepend">
+      <div class="input-group-text">Upload</div>
+    </div>
+  </div>
+</div>
+<div class="input-group">
+  <div class="custom-file">
+    <div class="inp custom-file-input"></div>
+    <label for="" class="custom-file-label"></label>
+    <div class="input-prepend">
+      <div class="input-group-text">Upload</div>
+    </div>
+  </div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bsinputgroup</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

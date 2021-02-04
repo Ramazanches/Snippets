@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+<a href="" rel="copyright">Правила использования</a> arelcopyright
+<a href="" rel="contents">Содержание</a> arelcontents
+<a href="" rel="alternate">Содержание</a> arelalternate
+<a href="" rel="author">Содержание</a> arelauthor
+<a href="" rel="bookmark">Содержание</a> arelbookmark
+<a href="" rel="help">Содержание</a> arelhelp
+<a href="" rel="license">Содержание</a> arellicense
+<a href="" rel="next">Содержание</a> arelnext
+<a href="" rel="prev">Содержание</a> arelprev
+<a href="" rel="nofollow">Содержание</a> arelnofollow
+<a href="" rel="noreferrer">Содержание</a> arelnoreferrer
+<a href="" rel="prefetch">Содержание</a> arelprefetch
+<a href="" rel="search">Содержание</a> arelsearch
+<a href="" rel="tag">Содержание</a> areltag
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>relall</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

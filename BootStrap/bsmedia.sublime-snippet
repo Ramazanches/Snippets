@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<div class="media w-50">
+  <img class="img-fluid w-25 m-5" src="../My_Template/img/images/4.jpg" alt="">
+  <div class="media-body my-5">
+    <p>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Vero, quis labore nemo quas corporis. Aliquid distinctio impedit hic inventore soluta, maiores laborum provident nisi maxime voluptatum nam quam omnis dignissimos?</p>
+  </div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bsmedia</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

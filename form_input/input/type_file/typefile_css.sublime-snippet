@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+input[type="file"]::-ms-value {
+    background: #7cbc0a; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    border: 1px solid #2ba8ff; /* Параметры рамки */
+    padding: 4px; /* Поля */
+   }
+   ::-ms-browse {
+    border-radius: 0 10px 10px 0; /* Радиус скругления */
+    background: #7cbc0a; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    border: 1px solid #2ba8ff; /* Параметры рамки */
+    margin-left: 2px; /* Отступ слева */
+    padding: 4px 10px; /* Поля */
+   }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>typefile_css</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

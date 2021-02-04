@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+Завершено на <progress value="50" max="100">50%</progress>.
+<progress value="90" min="0" max="100">Держитесь, осталось чуть-чуть.</progress>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>progresssnippet</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

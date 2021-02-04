@@ -1,0 +1,33 @@
+<snippet>
+	<content><![CDATA[
+<form action="signin" method="post">
+  <input type="email" name="email" placeholder="Электронная почта"/>
+  <input type="password" name="" placeholder="Пароль"/>
+  <div class="switch"><input type="checkbox"><label>Запомнить</label></div>
+  <input type="submit" name="" value="Войти"/>
+</form>
+<style>
+  form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: #CDF;
+  }
+  form input{
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid  #9BF;
+  }
+  form input:nth-child(4){
+    color: #fff; 
+    border: none;
+    background: #007FDBFF;    
+  }
+</style>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>signin</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

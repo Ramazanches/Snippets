@@ -1,0 +1,638 @@
+<snippet>
+	<content><![CDATA[
+<nav class="horizontal">
+  <ul class="h-navmenu">
+    <li class="navitem"><a href="" class="navlink">Link1</a></li>
+    <li class="navitem"><a href="" class="navlink">Link2</a><span id="togglehorizont">&or;</span></li>
+    <ul class="child-navmenu horizontal-navmenu none">
+      <li><a href="">Sublink1</a></li>
+      <li><a href="">Sublink2</a></li>
+      <li><a href="">Sublink3</a></li>
+      <li><a href="">Sublink4</a></li>
+    </ul>
+    <li class="navitem"><a href="" class="navlink">Link3</a></li>
+
+  </ul>
+  <div class="button" onclick="toggleMenuSub()">
+    <div class="button-bar"></div>
+    <div class="button-bar"></div>
+    <div class="button-bar"></div>
+  </div>
+</nav>
+<nav class="vertical-sub hide none" id="responsivesub">
+  <span class="close">&times;</span>
+  <ul class="v-navmenu">
+    <li class="navitem"><a href="" class="navlink">Link1</a><span id="toggle">&or;</span></li>
+    <ul class="child-navmenu none">
+      <li><a href="">Sublink1</a></li>
+      <li><a href="">Sublink2</a></li>
+      <li><a href="">Sublink3</a></li>
+      <li><a href="">Sublink4</a></li>
+    </ul>
+    <li class="navitem"><a href="" class="navlink">Link2</a></li>
+    <li class="navitem"><a href="" class="navlink">Link3</a></li>
+    <li class="navitem"><a href="" class="navlink">Link4</a></li>
+
+  </ul>
+</nav>
+
+<style>
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+
+  nav.horizontal{
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    background-color: #303030FF;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;  
+  }
+
+  
+  nav.horizontal ul.h-navmenu{
+        width: 50%;
+        padding: 2vh 2vw;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        -ms-align-items: center;
+        align-items: center;
+  }
+  @media screen and (max-width: 768px) {
+         nav.horizontal ul.h-navmenu{
+          display: none;
+         }
+  }
+  
+  li.navitem{
+    margin-left: 10%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+  }
+  @media screen and (max-width: 526px){
+        li.navitem{
+          margin-left: 5%;
+          font-size: 14px;
+        }
+    }
+  a.navlink{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+
+  }
+  nav.horizontal a.navlink:hover{
+    border-bottom: 2px solid #fff;
+  }
+
+  ul.h-navmenu{
+        width: 50%;
+        padding: 4vh 2vw;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        -ms-align-items: center;
+        align-items: center;
+  }
+  @media screen and (max-width: 768px) {
+       ul.h-navmenu{
+          display: none;
+         }
+  }    
+  nav.horizontal-sub span#equiv{
+    position: relative;
+    top: 25%;
+    left: 90%;
+    width: 55px;
+    font-size: 30px;
+        color: #fff;
+        cursor: pointer;
+        display: none;
+  }
+  @media screen and (max-width: 768px) {
+  nav.horizontal-sub span#equiv{
+        display: block;
+         }
+  }
+  li.navitem{
+    margin-left: 10%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+  }
+  @media screen and (max-width: 526px){
+        li.navitem{
+          margin-left: 5%;
+          font-size: 14px;
+        }
+    }
+  a.navlink{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+
+  }
+  nav.horizontal-sub a.navlink:hover{
+    border-bottom: 2px solid #fff;
+  }
+    ul.child-navmenu{
+      position: relative;
+      height: auto;
+      z-index: 4;
+      left: -5px;
+      padding: 15px;
+      margin-top: 1vh;
+    background-color: #303030FF;
+    border: 1px solid #fff;
+    border-radius: 2px;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+        justify-content: space-around;
+        -ms-align-items: center;
+        align-items: center;
+    }
+    ul.child-navmenu li{
+        margin: 0;
+    margin-top: 15%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    }
+    ul.child-navmenu li a{
+        text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: #fff;
+    font-size: 14px;
+    }
+    ul.child-navmenu li a:hover{
+      border-bottom: 1px solid #fff;
+    }
+    
+
+    .horizontal-navmenu{
+      position: relative;
+      height: auto;
+      z-index: 4;
+      margin-left: 12px;
+      padding: 15px;
+      top: 4.5vh;
+    background-color: #303030FF;
+    border: 1px solid #fff;
+    border-radius: 2px;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+        justify-content: space-around;
+        -ms-align-items: center;
+        align-items: center;
+    }
+/* Вертикальное меню с подменю */
+nav.vertical-sub{
+      position: relative;
+      width: 20vw;
+      background-color: #303030FF;
+      border-radius: 2px;
+      min-width: 200px;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      justify-content: flex-end;
+    }
+    nav.vertical-sub span.close{
+      margin: 0;
+      padding: 0;
+      position: relative;
+      top: 13px;
+      left: 75%;
+      z-index: 2;
+        color: #fff;
+        font-size: 30px;
+        font-weight: lighter;
+        cursor: pointer;
+    }
+  nav.vertical-sub ul.v-navmenu{
+    padding: 4vh 0;
+    width: 80%;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+        justify-content: space-around;
+        -ms-align-items: center;
+        align-items: center;
+  }
+  nav.vertical-sub li.navitem{
+    width: 70%;
+    margin: 0;
+    margin-top: 7%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: flex-start;
+    -ms-align-items: center;
+    align-items: center;
+  }
+    @media screen and (max-width: 768px){
+        nav.vertical-sub li.navitem{
+          font-size: 15px;
+        }
+    }
+  @media screen and (max-width: 526px){
+        nav.vertical-sub li.navitem{
+          font-size: 14px;
+        }
+    }
+  nav.vertical-sub a.navlink{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    
+  }
+  nav.vertical-sub a.navlink:hover{
+    border-bottom: 2px solid #fff;
+  }
+/* Адаптивное меню */
+  nav.responsive{
+    position: absolute;
+      width: 250px;
+      min-width: 200px;
+      background-color: #303030FF;
+      border-radius: 2px;
+      
+    }
+    nav.responsive span{
+      margin: 0;
+      padding: 0;
+      position: relative;
+      top: 13px;
+      left: 82%;
+      z-index: 2;
+        color: #fff;
+        font-size: 30px;
+        cursor: pointer;
+    }
+  nav.responsive ul.v-navmenu{
+    padding-bottom: 4vh;
+    width: 100%;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+        justify-content: space-around;
+        -ms-align-items: center;
+        align-items: center;
+  }
+  nav.responsive li.navitem{
+    margin: 0;
+    margin-top: 8%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+  }
+/*    @media screen and (max-width: 768px){
+nav.responsive{
+         display: block;
+    }
+    } */
+  @media screen and (max-width: 526px){
+        nav.responsive li.navitem{
+          font-size: 14px;
+        }
+    }
+  nav.responsive a.navlink{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    
+  }
+  nav.responsive a.navlink:hover{
+    border-bottom: 2px solid #fff;
+  }
+.button{
+    position: relative;
+    top: 1vh;
+    right: -85vw;
+    width: 15px;
+    height: 5px;
+    transition: all 0.25s ease;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    display: none;
+}
+.button-bar{
+    height: 2px;
+    width: 90%;
+    background: #fff;
+    border-radius: 7%;
+    position: absolute;
+    margin: auto;
+    top: -15px;
+    left: 0;
+    right: 0;
+    transition: all 0.25s ease;
+    transform-origin: 50% 50%;
+    box-shadow: 2px 3px 5px rgba(0,0,0,0.13), -2px 3px 5px rgba(0,0,0,0.06);;}
+.button-bar:nth-child(1){
+    top: 0;
+    bottom: auto;
+    transition-delay: 0.15s;}
+.button-bar:nth-child(2){
+    top: calc(50% - 10%);
+    bottom: auto;
+    transition-delay: 0.25s;}
+.button-bar:nth-child(3){
+    top: 80%;
+    bottom: auto;
+    transition-delay: 0.15s;}
+.button-open .button-bar:nth-child(1){
+    top: calc(50% - 10%);
+    bottom: auto;
+    transform: rotate(45deg);
+    transition-delay: 0.15s;}
+.button-open .button-bar:nth-child(2){
+    opacity: 0;
+    transition-delay: 0s;}
+.button-open .button-bar:nth-child(3){
+    top: calc(50% - 10%);
+    bottom: auto;
+    transform: rotate(-45deg);
+    transition-delay: 0.15s;}
+
+  @media screen and (max-width: 768px) {
+      .button{
+              display: block;
+         }
+  }
+
+
+
+  #toggle, #togglehorizont{
+      height: 50%;
+      font-size: 14px;
+      margin-left: 15%;
+      color: #fff;
+      cursor: pointer;
+      -webkit-transition: all 0.2s ease-in;
+      -moz-transition: all 0.2s ease-in;
+      -ms-transition: all 0.2s ease-in;
+      -o-transition: all 0.2s ease-in;
+      transition: all 0.2s ease-in;
+      
+    }
+    .none{
+      display: none!important;
+    }
+  .hide{
+    -webkit-animation: hide 0.5s ease-in;;
+        -o-animation: hide 0.5s ease-in;;
+        animation: hide 0.5s ease-in;
+        
+         }
+@-webkit-keyframes hide {
+  from {left: 0vw;  opacity:1;}
+  to {left: 100vw;  opacity:0;}
+}
+@-o-keyframes hide {
+  from {left: 0vw;  opacity:1;}
+  to {left: 100vw;  opacity:0;}
+}
+@-moz-keyframes hide {
+  from {left: 0vw;  opacity:1;}
+  to {left: 100vw;  opacity:0;}
+}
+@keyframes hide {
+  from {left: 0vw;  opacity:1;}
+  to {left: 100vw;  opacity:0;}
+} 
+.show{
+    display: block;
+    -webkit-animation: show 0.5s ease;
+    -o-animation: show 0.5s ease;
+    animation: show 0.5s ease;
+     }
+@-webkit-keyframes show {
+from {  left: 100vw; opacity: 0;}
+to {left: 0vw; opacity: 1;  }
+}
+@-o-keyframes show {
+from {  left: 100vw; opacity: 0;}
+to {left: 0vw; opacity: 1;  }
+}
+@-moz-keyframes show {
+from {  left: 100vw; opacity: 0;}
+to {left: 0vw; opacity: 1;  }
+}
+@keyframes show {
+from {left: 100vw; opacity: 0;  }
+to {left: 0vw; opacity: 1;  }
+} 
+
+
+.showsubmenu{
+    display: block;
+    -webkit-animation: showsub 0.5s ease;
+    -o-animation: showsub 0.5s ease;
+    animation: showsub 0.5s ease;
+     }
+@-webkit-keyframes showsub {
+from {  top: 100vh; opacity: 0;}
+to {top: 4.5vh; opacity: 1;  }
+}
+@-o-keyframes showsub {
+from {  top: 100vh; opacity: 0;}
+to {top: 4.5vh; opacity: 1;  }
+}
+@-moz-keyframes showsub {
+from {  top: 100vh; opacity: 0;}
+to {top: 4.5vh; opacity: 1;  }
+}
+@keyframes showsub {
+from {top: 100vh; opacity: 0;  }
+to {top: 4.5vh; opacity: 1;  }
+} 
+@media screen and (min-width: 768px){
+  .show{
+    display: none;
+  }
+}
+
+.rotate{
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  
+}
+</style>
+
+<script type="text/javascript">
+function toggleMenu(){
+    document.querySelector('.button').classList.toggle('button-open');
+    var res = document.getElementById("responsive");
+    if(res.classList.contains('hide')){
+      res.classList.replace('hide','show');
+      setTimeout(function(){res.classList.toggle("none")}, 500);
+    }
+    else{
+      res.classList.replace('show','hide');
+      setTimeout(function(){res.classList.toggle("none")}, 480);
+    }
+
+    var close = document.getElementsByClassName("close")[0];
+    close.onclick = function(){
+      toggleMenu();
+    }
+}
+
+
+function toggleMenuSub(){
+    document.querySelector('.button').classList.toggle('button-open');
+    var sub = document.getElementById("responsivesub");
+    if(sub.classList.contains('hide')){
+      sub.classList.replace('hide','show');
+      setTimeout(function(){sub.classList.remove("none")}, 500);
+    }
+    else{
+      sub.classList.replace('show','hide');
+      setTimeout(function(){sub.classList.add("none")}, 480);
+    }
+
+    var close = document.getElementsByClassName("close")[0];
+    close.onclick = function(){
+      toggleMenuSub();
+    }
+}
+
+        var eqh = document.getElementById("togglehorizont");
+        var horizontalmenu = document.getElementsByClassName("horizontal-navmenu");
+    eqh.onclick = function(event){
+           var target = event.target;
+           if(target == eqh){
+            eqh.classList.toggle("rotate");
+            for(var i=0; i<horizontalmenu.length; i++){
+               horizontalmenu[i].classList.toggle('showsubmenu'); 
+               horizontalmenu[i].classList.toggle('none');  
+            }
+            
+           }
+
+    }
+
+
+    var eq = document.getElementById("toggle");
+        var childmenu = document.getElementsByClassName("child-navmenu");
+    eq.onclick = function(event){
+           var target = event.target;
+           if(target == eq){
+            eq.classList.toggle("rotate");
+            for(var i=0; i<childmenu.length; i++){
+               childmenu[i].classList.toggle('show'); 
+               childmenu[i].classList.toggle('none'); 
+            }
+            
+           }
+    }
+</script>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>navdarksubmenu</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

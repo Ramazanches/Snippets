@@ -1,0 +1,40 @@
+<snippet>
+	<content><![CDATA[
+//src первой картинки должна быть заполнена
+//пример <source srcset="1.webp" data="1.webp">
+//нужно указать ширину source
+
+const images = document.querySelectorAll('source');
+
+const options = {
+    root: null,
+    rootMargin: '0px',
+    threshold: 0.1
+}
+
+function handleImg(myImg, observer) {
+    myImg.forEach(myImgSingle => {
+        console.log(myImgSingle.intersectionRatio);
+        if (myImgSingle.intersectionRatio > 0) {
+            loadImage(myImgSingle.target);
+        }
+    })
+}
+
+function loadImage(image) {
+    image.srcset = image.getAttribute('data');
+    observer.unobserve(image);
+}
+
+const observer = new IntersectionObserver(handleImg, options);
+
+images.forEach (source => {
+    observer.observe(source);
+})
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>lazypicture</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

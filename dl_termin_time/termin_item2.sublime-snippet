@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+<dl itemscope itemtype="https://md.example.com/loco
+                        https://md.example.com/lighting"
+                itemid="https://md.example.com/product-catalog/33041">
+ <dt>Name:
+ <dd itemprop="name">Tank Locomotive (DB 80)
+ <dt>Product code:
+ <dd itemprop="product-code">33041
+ <dt>Scale:
+ <dd itemprop="scale">HO
+ <dt>Digital:
+ <dd itemprop="digital">Delta
+</dl>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>termin_item2</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

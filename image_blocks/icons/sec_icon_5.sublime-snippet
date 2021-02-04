@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+<div class="icon-container">
+	<div class="icon-block">
+		<i class="icon"></i>
+		<span>Icon text</span>
+	</div>	
+	<div class="icon-block">
+		<i class="icon"></i>
+		<span>Icon text</span>
+	</div>	
+	<div class="icon-block">
+		<i class="icon"></i>
+		<span>Icon text</span>
+	</div>	
+	<div class="icon-block">
+		<i class="icon"></i>
+		<span>Icon text</span>
+	</div>	
+	<div class="icon-block">
+		<i class="icon"></i>
+		<span>Icon text</span>
+	</div>
+</div>]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sec_icon_5</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>
