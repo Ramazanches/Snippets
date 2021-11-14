@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+  h1 {
+    font-size: calc( 1.5rem + 16 * (100vw - 320px) / (960 - 320) );
+    /* При отрицательном наклоне нужно инвертировать контрольные точки */
+    line-height: calc( 120% + 3.2 * (100vw - 960px) / (320 - 960) );
+  }
+   p {
+    font-size: calc( 1.5rem + (40 - 24) * (100vw - 320px) / (960 - 320) );
+    /* При отрицательном наклоне нужно инвертировать контрольные точки */
+    line-height: calc( 120% + 3.2 * (100vw - 960px) / (320 - 960) );
+  }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>calcall</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>
